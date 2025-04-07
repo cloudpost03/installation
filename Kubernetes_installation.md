@@ -1,6 +1,8 @@
 Kubernetes Installation
 Step 1
+
 -------->>>> sudo  nano  /etc/hosts
+
 Add the IP Address entries. This will allow for hostname resolution. Replace the IP addresses and hostnames with your own.
   For Kubernets Master
 -------->>>> sudo hostnamectl set-hostname "k8s-master-node"
